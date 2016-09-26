@@ -22,6 +22,14 @@ $stateProvider
               controller: "UserController"
           }
     }
+	}).state('dashboard', {
+		url: "/dashboard",
+		views:{
+			"main":{
+				templateUrl:"dashboard",
+				controller:"dashboardCtrl"
+			}
+		}
 	});
 	// $urlRouterProvider.otherwise({redirectTo: '/login'});
 

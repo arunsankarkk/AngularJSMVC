@@ -25,7 +25,7 @@ public class HelloWorldRestController {
  
     
     //-------------------Retrieve All Users--------------------------------------------------------
-     
+    
     @RequestMapping(value = "/user/", method = RequestMethod.GET)
     public ResponseEntity<List<User>> listAllUsers() {
         List<User> users = userService.findAllUsers();

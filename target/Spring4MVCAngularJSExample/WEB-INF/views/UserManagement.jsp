@@ -55,7 +55,7 @@
                   </form>
               </div>
           </div>
-          <div class="panel panel-default">
+          <div class="panel panel-default" ng-if="viewMode">
                 <!-- Default panel contents -->
               <div class="panel-heading"><span class="lead">List of Users </span></div>
               <div class="tablecontainer">

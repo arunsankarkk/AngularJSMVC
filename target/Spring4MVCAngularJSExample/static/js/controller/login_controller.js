@@ -12,8 +12,7 @@ angular.module('myApp').controller('LoginCtrl', ['$scope', 'LoginService', '$roo
      function signIn() {
     	 var parms = {'username': this.username, 'password':this.password}
     	LoginService.login(parms).then( function(response) {
-    		$rootScope.loggedIn = true;
-        	$state.go('user');
+        	$state.go('dashboard');
     	}).then( function(reject) {
     		console.log("Error in Logging in");
     	});

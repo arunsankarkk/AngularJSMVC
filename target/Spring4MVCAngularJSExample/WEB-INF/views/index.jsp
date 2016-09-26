@@ -25,11 +25,14 @@
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.js"></script>
       <script src="static/lib/angular-ui-router.min.js"></script>
       <script src="static/js/app.js"></script>
-      <script src="static/js/service/user_service.js"></script>
       <script src="static/js/controller/user_controller.js"></script>
       <script src="static/js/controller/login_controller.js"></script>
-      <script src="static/js/service/login_service.js"></script>
 	  <script src="static/js/controller/indexController.js"></script>
+	  <script src="static/js/controller/dashboard_controller.js"></script>
+	   <script src="static/js/service/user_service.js"></script>
+	   <script src="static/js/service/login_service.js"></script>
+	   <script src="static/js/service/http_service.js"></script>
+	   <script src="static/js/service/url_service.js"></script>
       
     </body>
 </div>
